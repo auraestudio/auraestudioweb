@@ -134,14 +134,25 @@ body{
     }
 
     .conocenos{
+        font-family: 'comfortaa', regular;
         .row{
             text-align: center;
             img{
                 height: 265px;
                 border-radius: 50%;
             }
-            p{
-                text-align: start;
+            h5{
+                font-weight: bold;
+            }
+            h4{
+                font-weight: 900;
+            }
+            .my-auto{
+                p{
+                    text-align: start;
+                    font-weight: 600;
+                    font-size: 19px;
+                }
             }
             .gif{
                 height: 290px;
@@ -149,9 +160,54 @@ body{
                 border-radius: 30px;
             }
         }
+        p{
+            img{
+                height: 50px;
+                width: 100px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            .btn-primary{
+                margin-top: 10px;
+                padding-bottom: 10px;
+                box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
+                border-radius: 50px;
+                background: $tertiary;
+                border: none;
+                color: $background-white;
+                font-size: 25px;
+                font-weight: 600;
+                &:hover{
+                    background: $tertiary;
+                    color: $background-white;
+                }
+            }
+
+        }
     }
 
     .portafolio{
+        .nav-link{
+            width: 75% !important;
+            font-family: 'comfortaa', regular;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 50px;
+            background: white;
+            border: $secondary 2px solid;
+            color: black;
+            font-size: 25px;
+            font-weight: 600;
+            &:hover{
+                background: $secondary;
+                color: $background-white;
+            }
+            &.active{
+                background: $secondary;
+                color: $background-white;
+            }
+        }
+    
         .tab-content{
             .overflow-auto{
                 height: 644px;
@@ -243,6 +299,26 @@ body{
                 &:hover{
                     background: $tertiary;
                     color: $background-white;
+                }
+            }
+        }
+    }
+
+    .footer{
+        font-family: 'comfortaa', regular;
+        .row{
+            p{
+                img{
+                    height: 8px;
+                    width: 40px;
+                }
+                .icon{
+                    height: 25px;
+                    width: 25px;
+                }
+                span{
+                    font-size: 16px;
+                    color: $primary;
                 }
             }
         }
