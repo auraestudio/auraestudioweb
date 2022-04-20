@@ -1,0 +1,251 @@
+$background: #FFFFFF;
+$primary: #8331A7;
+$secondary: #D79DD7;
+$tertiary: #cc3362;
+$text: #636569;
+$h4text: #8A1E41;
+$missing-image: #E5E5E5;
+$background-white: #F3EFF5;
+
+@font-face {
+    font-family: 'hello honey';
+    src: url('../fonts/hellohoney.woff2') format('woff2'),
+        url('../fonts/hellohoney.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+//@media (min-width: 1200px){}
+/*
+  xs: 0
+  sm: 576px
+  md: 768px
+  lg: 992px
+  xl: 1200px
+  xxl: 1400px
+*/
+
+
+body{
+    text-align: center;
+    h3{
+        font-family: 'hello honey', medium;
+        font-size: 75px;
+        color: $primary;
+    }
+    .navbar{
+        font-family: 'comfortaa', medium;
+        ul{
+            img{
+                height: 8px;
+                width: 72px;
+            }
+            li{
+                a{
+                    font-size: 16px;
+                    color: $text;
+                    &:hover{
+                        color: $secondary;
+                    }
+                }
+            }
+        }
+        img{
+            width: 136px;
+        }
+    }
+    
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                .carousel-caption{
+                    text-align: start;
+                    bottom: 160px;
+                    left: auto;
+                    h5{
+                        font-family: 'comfortaa', medium;
+                        font-size: 32px;
+                    }
+                    .btn-primary{
+                        padding-bottom: 12px;
+                        box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
+                        border-radius: 50px;
+                        background: $h4text;
+                        border: none;
+                        color: $background-white;
+                        font-size: 25px;
+                        font-weight: 600;
+                        &:hover{
+                            background: $tertiary;
+                            color: $background-white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .quehacemos{
+        .row{
+            .col-6{
+                img{
+                    height: 140px;
+                    border-radius: 50%;
+                }
+                h4{
+                    font-family: 'hello honey', medium;
+                    font-size: 53px;
+                    color: $h4text;
+                }
+                ul{
+                    text-align: left;
+                    list-style: none;
+                    padding-left: 55px;
+                    li{
+                        font-family: 'comfortaa', regular;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: black;
+                    }
+                    li::before {
+                        content: "\2022";
+                        color: $secondary;
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 1em;
+                        margin-left: -1em;
+                    }
+                }
+            }
+            .gif{
+                height: 290px;
+                width: 590px;
+                border-radius: 30px;
+            }
+            p{
+                font-family: 'comfortaa', regular;
+                font-size: 16px;
+                line-height: 26px;
+                color: black;
+                text-align: left;
+            }
+        }
+    }
+
+    .conocenos{
+        .row{
+            text-align: center;
+            img{
+                height: 265px;
+                border-radius: 50%;
+            }
+            p{
+                text-align: start;
+            }
+            .gif{
+                height: 290px;
+                width: 590px;
+                border-radius: 30px;
+            }
+        }
+    }
+
+    .portafolio{
+        .tab-content{
+            .overflow-auto{
+                height: 644px;
+                .row{
+                    margin: 0;
+                    .btn, btn:hover{
+                        border: none;
+                        img{
+                            background-color: white;
+                            border-radius: 10%;
+                            height: 280px;
+                            width: 280px;
+                            margin-top: 15px;
+                            margin-bottom: 15px;
+                            padding: 5px;
+                            border: #e3c9e0 solid 3px;
+                            object-fit: scale-down;
+                        }
+                    }
+                    .modal-body{
+                        img{
+                            border: none;
+                            height: 450px;
+                            width: auto;
+                            max-width: 100%;
+                        }
+                        h3{  
+                            font-family: 'comfortaa', regular;
+                            color: $primary;
+                            font-size: 20px;
+                        }
+                        p{
+                            font-family: 'comfortaa', regular;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .contacto{
+        background-image: url("../images/Contactocopia.svg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        form{
+            text-align: start;
+            label{
+                font-family: 'comfortaa', regular;
+                font-size: 16px;
+                color: white;
+            }
+            textarea{
+                font-family: 'comfortaa', regular;
+                font-size: 16px;
+                color: white;
+                height: 100px;
+                width: 100%;
+                border: 2px solid white;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.6);
+                padding: 10px;
+                &:focus{
+                    outline: none;
+                }
+            }
+            input{
+                font-family: 'comfortaa', regular;
+                font-size: 16px;
+                color: white;
+                border: none;
+                border-radius: 20px;
+                border: 2px solid white;
+                background-color: rgba(0, 0, 0, 0.6);
+                &:focus{
+                    outline: none;
+                }
+            }
+            .btn-primary{
+                margin-left: 240px;
+                padding-bottom: 12px;
+                box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
+                border-radius: 50px;
+                background: #cc3362;
+                border: none;
+                color: $background-white;
+                font-size: 30px;
+                font-weight: 600;
+                &:hover{
+                    background: $tertiary;
+                    color: $background-white;
+                }
+            }
+        }
+    }
+
+}
