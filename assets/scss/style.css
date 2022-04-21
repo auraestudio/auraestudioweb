@@ -144,8 +144,9 @@ body .conocenos .row h4 {
 
 body .conocenos .row .my-auto p {
   text-align: start;
-  font-weight: 600;
-  font-size: 19px;
+  font-size: 16px;
+  line-height: 26px;
+  color: black;
 }
 
 body .conocenos .row .gif {
@@ -246,9 +247,10 @@ body .portafolio .tab-content .overflow-auto .row .modal-body p {
 
 body .contacto {
   background-image: url("../images/contacto2030png.png");
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100%;
+  background-size: cover;
 }
 
 body .contacto form {

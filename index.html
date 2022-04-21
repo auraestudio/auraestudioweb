@@ -88,7 +88,7 @@
     </div>
 
     <!--banner-->
-    <img src="./assets/images/banner.svg" id="servicios" style="width: 100%;">
+    <img src="./assets/images/banner.png" id="servicios" style="width: 100%;">
 
     <!--¿que hacemos?-->
     <div class="quehacemos container">
@@ -200,7 +200,7 @@
         </div>
         <div class="container py-4 mt-5">
           <h4>Si buscas un diseño para tu marca, diseño web, animación 2D o servicios de</br> imprenta, ¡no dudes en contactarte con nosotras!</h4>
-          <p id="portafolio"><img src="./assets/images/Divisor formulario.svg"><a href="#contacto"><button type="button" class="btn btn-primary">¡Contáctanos!</button></a><img src="./assets/images/Divisor formulario.svg"></p>
+          <p id="portafolio"><img src="./assets/images/onda izq.svg"><a href="#contacto"><button type="button" class="btn btn-primary">¡Contáctanos!</button></a><img src="./assets/images/onda der.svg"></p>
         </div>
       </div>
     </div>
@@ -211,7 +211,7 @@
       <!--nav pills-->
       <ul class="nav nav-pills mb-3 nav-fill mt-4" id="pills-tab" role="tablist" style="padding-left: 60px;">
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="branding-tab" data-bs-toggle="pill" data-bs-target="#branding" type="button" role="tab" aria-controls="branding" aria-selected="true">Branding</button>
+          <button class="nav-link active" id="branding-tab" data-bs-toggle="pill" data-bs-target="#branding" type="button" role="tab" aria-controls="branding" aria-selected="true">Branding</button>
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="grafica-tab" data-bs-toggle="pill" data-bs-target="#grafica" type="button" role="tab" aria-controls="grafica" aria-selected="false">Gráfica</button>
@@ -220,7 +220,7 @@
           <button class="nav-link" id="imprenta-tab" data-bs-toggle="pill" data-bs-target="#imprenta" type="button" role="tab" aria-controls="imprenta" aria-selected="false">Imprenta</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="web-tab" data-bs-toggle="pill" data-bs-target="#web" type="button" role="tab" aria-controls="web" aria-selected="false">Diseño web</button>
+          <button class="nav-link" id="web-tab" data-bs-toggle="pill" data-bs-target="#web" type="button" role="tab" aria-controls="web" aria-selected="false">Diseño web</button>
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="multimedia-tab" data-bs-toggle="pill" data-bs-target="#multimedia" type="button" role="tab" aria-controls="multimedia" aria-selected="false">Multimedia</button>
@@ -228,7 +228,7 @@
       </ul>
       <div class="tab-content" id="pills-tabContent">
         <!---Branding-->
-        <div class="tab-pane overflow-auto fade" id="branding" role="tabpanel" aria-labelledby="branding-tab">
+        <div class="tab-pane overflow-auto fade show active" id="branding" role="tabpanel" aria-labelledby="branding-tab">
           <div class="row">
             <!--primera imagen-->
             <div class="col-xl-3 col-12">
@@ -415,7 +415,7 @@
                             <img src="./assets/images/Imagenes portafolio/Branding/8-1DRONEX 1-01.jpg" class="d-block mx-auto">
                           </div>
                           <div class="carousel-item">
-                            <img src="./assets/images/Imagenes portafolio/Branding/8-2DRONEX.jpg" class="d-block w-100">
+                            <img src="./assets/images/Imagenes portafolio/Branding/8-2DRONEX.jpg" class="d-block w-90 mx-auto">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselbranding1" data-bs-slide="prev">
@@ -853,7 +853,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="i5Label">Tarjetas Caramelo & Co.</h5>
+                      <h5 class="modal-title" id="i5Label">Etiquetas galletas Caramelo & Co.</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -876,7 +876,7 @@
                           <span class="visually-hidden">Next</span>
                         </button>
                       </div>
-                      <h3 class="mt-4">Servicio: Diseño e impresión de tarjetas de 9x6 cm.</h3>
+                      <h3 class="mt-4">Servicio: Diseño, impresión y troquelado de etiquetas de 6,5x6,5 cm.</h3>
                       <p>Cliente: Pastelería Caramelo & Co.</p>
                     </div>
                   </div>
@@ -981,7 +981,7 @@
           </div>
         </div>
         <!--Diseño web-->
-        <div class="tab-pane overflow-auto fade  show active" id="web" role="tabpanel" aria-labelledby="web-tab">
+        <div class="tab-pane overflow-auto fade" id="web" role="tabpanel" aria-labelledby="web-tab">
           <div class="row">
             <!--primera imagen / carousel-->
             <div class="col-xl-3 col-12">
@@ -1132,7 +1132,7 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      <video width="750" height="450" muted autoplay controls>
+                      <video width="750" height="450" muted autoplay loop controls>
                         <source src="./assets/images/Imagenes portafolio/Multimedia/1interfazcatcat.mp4" type="video/mp4">
                       </video>
                       <h3 class="mt-4">Servicio: Desarrollo de animación en Adobe Animate</h3>
@@ -1254,12 +1254,13 @@
           </div>
           <div class="col-xl-8 col-12 mt-xl-0 mt-4">
             <h4>Ante cualquier consulta ¡escríbenos!</h4>
-            <p class="mt-4"><a href="https://instagram.com/agencia.auraestudio?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"><img src="./assets/images/iconos footer instagram.svg" alt="Aura Estudio instagram" class="icon"></a> @agencia.auraestudio <img src="./assets/images/footer abajo.svg"> <a href="https://wa.me/message/3U6YVNYJP7M3H1" target="_blank" rel="noopener noreferrer"><img src="./assets/images/iconos footer whatsapp.svg" alt="Whatsapp Aura Estudio" class="icon"></a> +569 3758 2185 <img src="./assets/images/footer abajo.svg"> <img src="./assets/images/iconos footer correo.svg" alt="Correo Aura Estudio" class="icon"> auraestudio2022@gmail.com</p>
+            <p class="mt-4"><a href="https://instagram.com/agencia.auraestudio?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"><img src="./assets/images/iconos footer instagram.svg" alt="Aura Estudio instagram" class="icon"></a> @agencia.auraestudio <img src="./assets/images/onda izq.svg"> <a href="https://wa.me/message/3U6YVNYJP7M3H1" target="_blank" rel="noopener noreferrer"><img src="./assets/images/iconos footer whatsapp.svg" alt="Whatsapp Aura Estudio" class="icon"></a> +569 3758 2185 <img src="./assets/images/onda der.svg"> <img src="./assets/images/iconos footer correo.svg" alt="Correo Aura Estudio" class="icon"> auraestudio2022@gmail.com</p>
             <p class="mt-4"><span>Horario de antención: </span>Lunes a Viernes de 10:00 a 18:00 hrs.</p>
           </div>
         </div>
       </div>
     </div>
+    <img src="./assets/images/footerabajo-2.png" class="w-100">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

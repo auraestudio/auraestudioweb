@@ -150,8 +150,9 @@ body{
             .my-auto{
                 p{
                     text-align: start;
-                    font-weight: 600;
-                    font-size: 19px;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: black;
                 }
             }
             .gif{
@@ -250,9 +251,10 @@ body{
 
     .contacto{
         background-image: url("../images/contacto2030png.png"); 
-        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        height: 100%;
+        background-size: cover;
         form{
             text-align: start;
             label{
