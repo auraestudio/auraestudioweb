@@ -58,7 +58,7 @@ body .carousel .carousel-inner .carousel-item .carousel-caption h5 {
 }
 
 body .carousel .carousel-inner .carousel-item .carousel-caption .btn-primary {
-  padding-bottom: 12px;
+  font-family: 'comfortaa', medium;
   -webkit-box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
           box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
@@ -108,9 +108,18 @@ body .quehacemos .row .col-6 ul li::before {
 }
 
 body .quehacemos .row .gif {
-  height: 290px;
-  width: 590px;
+  height: 250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 30px;
+}
+
+@media (min-width: 992px) {
+  body .quehacemos .row .gif {
+    height: 290px;
+    width: 590px;
+  }
 }
 
 body .quehacemos .row p {
@@ -118,7 +127,13 @@ body .quehacemos .row p {
   font-size: 16px;
   line-height: 26px;
   color: black;
-  text-align: left;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  body .quehacemos .row p {
+    text-align: left;
+  }
 }
 
 body .conocenos {
@@ -150,9 +165,26 @@ body .conocenos .row .my-auto p {
 }
 
 body .conocenos .row .gif {
-  height: 290px;
-  width: 590px;
   border-radius: 30px;
+  height: 250px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  body .conocenos .row .gif {
+    height: 290px;
+    width: 590px;
+  }
+}
+
+body .conocenos p {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  body .conocenos p {
+    text-align: left;
+  }
 }
 
 body .conocenos p img {
@@ -163,8 +195,8 @@ body .conocenos p img {
 }
 
 body .conocenos p .btn-primary {
+  font-family: 'comfortaa', medium;
   margin-top: 10px;
-  padding-bottom: 10px;
   -webkit-box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
           box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
@@ -180,8 +212,13 @@ body .conocenos p .btn-primary:hover {
   color: #F3EFF5;
 }
 
+@media (min-width: 992px) {
+  body .portafolio ul {
+    padding-left: 60px;
+  }
+}
+
 body .portafolio .nav-link {
-  width: 75% !important;
   font-family: 'comfortaa', regular;
   margin-top: 10px;
   padding-bottom: 10px;
@@ -191,6 +228,12 @@ body .portafolio .nav-link {
   color: black;
   font-size: 25px;
   font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  body .portafolio .nav-link {
+    width: 75% !important;
+  }
 }
 
 body .portafolio .nav-link:hover {
@@ -212,6 +255,7 @@ body .portafolio .tab-content .overflow-auto .row {
 }
 
 body .portafolio .tab-content .overflow-auto .row .btn, body .portafolio .tab-content .overflow-auto .row btn:hover {
+  font-family: 'comfortaa', medium;
   border: none;
 }
 
@@ -294,8 +338,8 @@ body .contacto form input:focus {
 }
 
 body .contacto form .btn-primary {
+  font-family: 'comfortaa', medium;
   margin-left: 240px;
-  padding-bottom: 12px;
   -webkit-box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
           box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
