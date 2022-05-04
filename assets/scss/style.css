@@ -65,7 +65,7 @@ body .carousel .carousel-inner .carousel-item .carousel-caption .btn-primary {
   background: #8A1E41;
   border: none;
   color: #F3EFF5;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -123,11 +123,12 @@ body .quehacemos .row .gif {
 }
 
 body .quehacemos .row p {
-  font-family: 'comfortaa', regular;
-  font-size: 16px;
+  font-family: 'comfortaa';
+  font-size: 18px;
+  font-weight: 400;
   line-height: 26px;
-  color: black;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 @media (min-width: 992px) {
@@ -145,7 +146,7 @@ body .conocenos .row {
 }
 
 body .conocenos .row img {
-  height: 265px;
+  height: 250px;
   border-radius: 50%;
 }
 
@@ -159,9 +160,15 @@ body .conocenos .row h4 {
 
 body .conocenos .row .my-auto p {
   text-align: start;
-  font-size: 16px;
-  line-height: 26px;
-  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  body .conocenos .row .my-auto p {
+    text-align: left;
+  }
 }
 
 body .conocenos .row .gif {
@@ -177,14 +184,13 @@ body .conocenos .row .gif {
   }
 }
 
-body .conocenos p {
-  text-align: center;
+body .conocenos h4 {
+  font-size: 22px;
+  font-weight: 600;
 }
 
-@media (min-width: 992px) {
-  body .conocenos p {
-    text-align: left;
-  }
+body .conocenos p {
+  text-align: center;
 }
 
 body .conocenos p img {
@@ -203,7 +209,7 @@ body .conocenos p .btn-primary {
   background: #cc3362;
   border: none;
   color: #F3EFF5;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -346,7 +352,7 @@ body .contacto form .btn-primary {
   background: #cc3362;
   border: none;
   color: #F3EFF5;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -357,6 +363,15 @@ body .contacto form .btn-primary:hover {
 
 body .footer {
   font-family: 'comfortaa', regular;
+}
+
+body .footer .row img {
+  width: 320px;
+}
+
+body .footer .row h4 {
+  font-size: 20px;
+  color: #8331A7;
 }
 
 body .footer .row p img {
@@ -370,7 +385,7 @@ body .footer .row p .icon {
 }
 
 body .footer .row p span {
-  font-size: 16px;
+  font-size: 18px;
   color: #8331A7;
 }
 /*# sourceMappingURL=style.css.map */
